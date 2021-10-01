@@ -56,7 +56,7 @@ layer {
   type: "BatchNorm"
   bottom: "conv1_2"
   top: "conv1_2norm"
-  batch_norm_param{ }
+  batch_normalize_bbox_param{ }
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
@@ -110,7 +110,7 @@ layer {
   type: "BatchNorm"
   bottom: "conv2_2"
   top: "conv2_2norm"
-  batch_norm_param{ }
+  batch_normalize_bbox_param{ }
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
@@ -183,7 +183,7 @@ layer {
   type: "BatchNorm"
   bottom: "conv3_3"
   top: "conv3_3norm"
-  batch_norm_param{ }
+  batch_normalize_bbox_param{ }
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
@@ -261,7 +261,7 @@ layer {
   type: "BatchNorm"
   bottom: "conv4_3"
   top: "conv4_3norm"
-  batch_norm_param{ }
+  batch_normalize_bbox_param{ }
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
@@ -339,7 +339,7 @@ layer {
   type: "BatchNorm"
   bottom: "conv5_3"
   top: "conv5_3norm"
-  batch_norm_param{ }
+  batch_normalize_bbox_param{ }
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
@@ -406,7 +406,7 @@ layer {
   type: "BatchNorm"
   bottom: "conv6_3"
   top: "conv6_3norm"
-  batch_norm_param{ }
+  batch_normalize_bbox_param{ }
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
@@ -473,7 +473,7 @@ layer {
   type: "BatchNorm"
   bottom: "conv7_3"
   top: "conv7_3norm"
-  batch_norm_param{ }
+  batch_normalize_bbox_param{ }
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
   param {lr_mult: 0 decay_mult: 0}
