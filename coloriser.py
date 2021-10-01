@@ -13,7 +13,7 @@ if not os.path.isfile(model):
     print("model is missing from the model folder")
     exit()
 
-net = cv2.dnn.readNet(prototxt,model)
+net = cv2.dnn.readNetFromCaffe(prototxt,model)
 pts = np.load(points)
 
 class8 = net.getLayerId("class8_ab")
