@@ -21,9 +21,9 @@ app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024
 def allowed_file(filename):
    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-prototxt = r'models/colorization_deploy_v2.prototxt'
-model = r'models/colorization_release_v2.caffemodel'
-points = r'models/pts_in_hull.npy'
+prototxt = "models/colorization_deploy_v2.prototxt"
+model = "models/colorization_release_v2.caffemodel"
+points = "models/pts_in_hull.npy"
 points = os.path.join(os.path.dirname(__file__),points)
 prototxt = os.path.join(os.path.dirname(__file__),prototxt)
 model = os.path.join(os.path.dirname(__file__),model)
