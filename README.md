@@ -36,7 +36,22 @@ A Flask based Web-app to colourize black and white images built using openCV and
 ------------
 
 
+### Running the Dockerized App
+1. Ensure you have Docker Installed and Setup in your OS (Windows/Mac/Linux). For detailed Instructions, please refer [this.](https://docs.docker.com/engine/install/)
+2. Navigate to the folder where you have cloned this repository ( where the ***Dockerfile*** is present ).
+3. Build the Docker Image (don't forget the dot!! :smile: ): 
+```
+docker build --tag image_colourizer_app .
+```
+4. Run the docker:
+```
+docker run --publish 8000:8080 --detach --name bb image_colourizer_app
+```
 
+This will launch the dockerized app. Navigate to ***localhost:8000*** in your browser to have a look at your application. You can check the status of your all available running dockers by:
+```
+docker ps
+```
 
 
 
