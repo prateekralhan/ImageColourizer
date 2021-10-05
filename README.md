@@ -1,4 +1,5 @@
-# 🎨Image Colourizer🖌️
+# 🎨Image Colourizer🖌️ [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
 A Flask based Web-app to colourize black and white images built using openCV and Caffe deeplearning framework.
 
 ## Installation:
