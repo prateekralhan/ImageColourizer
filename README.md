@@ -1,4 +1,5 @@
-# 🎨Image Colourizer🖌️ [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+# 🎨Image Colourizer🖌️ [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Prateek-Ralhan-brightgreen.svg?colorB=ff0000)](https://prateekralhan.github.io/)
+
 
 A Flask based Web-app to colourize black and white images built using openCV and Caffe deeplearning framework.
 
